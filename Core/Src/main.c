@@ -13,6 +13,9 @@
 // PB8    ------> I2C1_SDL
 // #define SLAVE_ADDRESS_LCD (0x20<<1)  in i2c_HD44780.c file
 
+// debouncing
+// https://www.instructables.com/STM32CubeMX-Button-Debounce-With-Interrupt
+
 /**
  ******************************************************************************
  * @file           : main.c
